@@ -1,11 +1,11 @@
 package bank;
 
 public class Account {
-	//Atributes
+	//Atributes 
 	private double balance;
 	private String owner;
 	
-	//Constructor
+	// Constructor
 	public Account(String owner, double balance) {
 		this.balance = balance;
 		this.owner = owner;
